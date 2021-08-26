@@ -16,11 +16,12 @@ var (
 	reader *bufio.Reader
 )
 
+// Function to show a simple prompt
 func prompt() {
 	fmt.Print("-> ")
 }
 
-// Function to read string
+// Function to read the user input and return a string
 func ReadString(format string, a ...interface{}) string {
 
 	// Run until get a value different from empty
@@ -40,7 +41,7 @@ func ReadString(format string, a ...interface{}) string {
 	}
 }
 
-// Function to read integer
+// Function to read the user input and return a integer
 func ReadInt(format string, a ...interface{}) int {
 	// Run until get a value different from empty
 	for {
@@ -62,7 +63,7 @@ func ReadInt(format string, a ...interface{}) int {
 	}
 }
 
-// Function to read integer
+// Function to read the user input and return a float64
 func ReadFloat(format string, a ...interface{}) float64 {
 	// Run until get a value different from empty
 	for {
@@ -84,7 +85,7 @@ func ReadFloat(format string, a ...interface{}) float64 {
 	}
 }
 
-// Function to read integer
+// Function to read the user input and return a bool
 func ReadBool(format string, a ...interface{}) bool {
 
 	// Open the keyboard to be handle
