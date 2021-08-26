@@ -7,9 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"utils/functions/checks"
-
 	"github.com/douglasqsantos/keyboard"
+	"github.com/douglasqsantos/utils/functions/checks"
 )
 
 // Global vars
